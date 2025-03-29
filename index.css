@@ -38,7 +38,7 @@ main {
 }
 
 h1 {
-    font-size: clamp(1.5rem, 2.8vw, 5rem);
+    font-size: clamp(1.5rem, 2.5vw, 5rem);
     color: hsl(212, 6%, 44%);
     font-weight: 200;
     margin-bottom: 1rem;
