@@ -33,12 +33,12 @@ main {
 }
 
 .subtitle {
-    /* font-size: clamp(.9375, 1vw, 1rem); */
+    font-size: clamp(.9375, 2vw, 2rem);
     max-width: 500px;
 }
 
 h1 {
-    font-size: clamp(1.5rem, 2.7vw, 5rem);
+    font-size: clamp(1.5rem, 2.8vw, 5rem);
     color: hsl(212, 6%, 44%);
     font-weight: 200;
     margin-bottom: 1rem;
@@ -57,9 +57,13 @@ span {
     background: white;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     margin-top: 2rem;
-    max-width: 350px;
+    max-width: 375px;
     border-radius: .5em;
     border-top: 6px solid hsl(180, 62%, 55%);
+}
+
+.card p {
+    margin-bottom: 2rem;
 }
 
 .icon {
@@ -69,7 +73,7 @@ span {
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
